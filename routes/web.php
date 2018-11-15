@@ -11,11 +11,8 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
-
 Route::get('/', function () {
-    logger('logger log');
-    return 1;
+    return view('index');
 });
+
+
